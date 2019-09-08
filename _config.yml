@@ -1,8 +1,8 @@
 remote_theme: sujaykundu777/devlopr-jekyll  # Don't touch ( required for this theme)
 
 # Edit your preferences below 
-title: John Doe
-subtitle: Full Stack Web Developer
+title: Robin Rumpunen
+subtitle: Prop Artist and Game Engine Enthusiast
 description: >- # this means to ignore newlines until "baseurl:"
   John Doe uses devlopr-jekyll - a Jekyll Theme Built For Developers
 
@@ -10,37 +10,49 @@ url: "http://localhost:4000" # the base hostname & protocol for your site, e.g. 
 baseurl: "" # the subpath of your site, e.g. /blog
 
 urls:
-    - text: Blog
-      url: /blog
+    # - text: Blog
+      # url: /blog
     - text: About Me
       url: /about
+    - text: Engine
+      url: /engine
     - text: Contact Me
       url : /contact
-    - text: Sample Page
-      url: /sample-page
 
 # Edit these details 
 
 author_logo: profile.png
-author: John Doe
-author_bio: Hi, My Name is John Doe. I love to Code and Design. devlopr-jekyll is a theme built for developers.  
-author_email: "johndoe@gmail.com"
-author_location: India
-author_website_url: "http://johndoe.com"
+author: Robin Rumpunen
+author_bio: Hi, my name is Robin Rumpunen, swedish artist and programmer from Halland. </p><p>Uncovering the mysteries of days past is my motto.</p>
+author_email: "RobinRumpunen@gmail.com"
+author_location: Sweden, Malmö
+author_website_url: "http://robinrumpunen.github.io"
 
 author_work_experiences: 
-            - company_name: Google
-              company_logo: google.png
-              company_url: https://google.com
-              designation: Software Engineer
-              description: Worked on various Google Products
+            - company_name: Massive Entertainment
+              company_logo: MassiveEnt.png
+              company_url: https://massive.se
+              designation: Prop Artist
+              description: Prop Artist on The Division 2.
               visibility: true
-            - company_name: Microsoft
-              company_logo: microsoft.png
-              company_url: https://microsoft.com
-              designation: Azure Developer
-              description: Worked on various Azure Cloud Products
+            - company_name: Massive Entertainment
+              company_logo: MassiveEnt.png
+              company_url: https://massive.com
+              designation: Junior Prop Artist
+              description: Junior Prop Artist on The Division 2.
               visibility: true
+
+author_project_details:
+              - project_thumbnail: EchoEngine.png
+                project_title: Echo Engine
+                project_description: A personal Game Engine.
+                project_url: https://robinrumpunen.github.io/engine
+                visibility: true
+              - project_thumbnail: programmingebooks.png
+                project_title: Programming Ebooks
+                project_description: A Platform to easily find and read programming books
+                project_url: https://programmingebooks.com
+                visibility: false
 
 author_education_details:
               - college_logo: mit.png
@@ -50,48 +62,36 @@ author_education_details:
                 description: Bachelor of Technology
                 visibility: true
 
-author_project_details:
-              - project_thumbnail: gamershub.png
-                project_title: Gamers Hub
-                project_description: A Platform built for Gamers and Game Devs
-                project_url: https://gamershub.in
-                visibility: true
-              - project_thumbnail: programmingebooks.png
-                project_title: Programming Ebooks
-                project_description: A Platform to easily find and read programming books
-                project_url: https://programmingebooks.com
-                visibility: true
-
 # social links
-twitter_username: johndoe
-github_username:  johndoe
-facebook_username: johndoe
-linkedin_username: johndoe
-behance_username: johndoe
-instagram_username: johndoe
-medium_username: johndoe
-telegram_username: johndoe
-dribbble_username: johndoe
-flickr_username: johndoe
+twitter_username: robin_rrrr
+github_username:  robinrumpunen
+facebook_username: 
+linkedin_username: robin-rumpunen-b7bb55140/
+behance_username: 
+instagram_username: 
+medium_username: 
+dribbble_username: 
+flickr_username:  
+artstation_username: robinr
+
+# google analytics
+google_analytics: UA-147350173-1 
 
 #for comments using disqus
-disqus_shortname: sujay-kundu  
+  # disqus_shortname: sujay-kundu
 
 # wakatime username
-wakatime_username: sujaykundu777
+  # wakatime_username: sujaykundu777
 
 # syntax highlighter
 markdown: kramdown
 highlighter: rouge
 permalink: pretty
 
-# google analytics
-google_analytics: UA-46783401-10 
-
 # Choose what to show ( can be true or false)
 show_author_work_experiences: true
-show_author_education_details: true
 show_author_project_details: true
+show_author_education_details: false
 
 # dont touch this unless required
 plugins:
