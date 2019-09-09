@@ -1,4 +1,4 @@
-remote_theme: sujaykundu777/devlopr-jekyll  # Don't touch ( required for this theme)
+# remote_theme: sujaykundu777/devlopr-jekyll  # Don't touch ( required for this theme)
 
 # Edit your preferences below 
 title: Robin Rumpunen
@@ -94,13 +94,14 @@ show_author_project_details: true
 show_author_education_details: false
 
 # dont touch this unless required
-plugins:
-  - jekyll-paginate
-  - jekyll-gist
-  - jekyll-seo-tag
-  - jekyll-sitemap
-  - jekyll-feed
-  - jekyll-remote-theme
+# plugins:
+#   - jekyll-paginate
+#   - jekyll-gist
+#   - jekyll-seo-tag
+#   - jekyll-sitemap
+#   - jekyll-feed
+
+  # - jekyll-remote-theme
   # - jekyll-archives
 
 # pagination of posts
