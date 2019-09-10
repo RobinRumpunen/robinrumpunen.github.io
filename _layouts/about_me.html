@@ -12,7 +12,6 @@ layout: default
             </div>
             {% endif %}
 
-
             {% if site.show_author_project_details == true %}
             <div class="card">
                 <h1 class="card-title">Projects</h1>
@@ -58,32 +57,8 @@ layout: default
                     {% endfor %}  
             </div>
             {% endif %}
-
-
-            {% if site.show_author_education_details == true %}
-            <div class="card">
-                <h1 class="card-title"> Education </h1>
-                <br />
-                {% for detail in site.author_education_details %}
-                {% if detail.visibility == true %}
-                <div class="row">
-                        <div class="col-md-2">
-                            <img src="/assets/img/{{ detail.college_logo}}" class="company-logo" />
-                        </div>
-                        <div class="col-md-6">
-                            <h4 class="experience-title"> {{detail.college_degree }}</h4>
-                            <h6 class="experience-info">{{detail.college_name}}</h6>
-                            <p class="experience-desc"> {{detail.description}} </p>
-                            <p><a href="{{detail.college_url}}">{{ detail.college_url}}</a></p>                    
-                        </div>
-                    </div>
-                    {% endif %}
-                    
-                    {% endfor %}  
-            </div>
-            {% endif %}
-
         </div>
+
         <div class="col-lg-4">
 
     
@@ -93,15 +68,6 @@ layout: default
                 {%- include author_skills.html -%}
                
             </div>
-    
-            {% if site.wakatime_username %}
-            <div class="card">
-                <h1> Coding Activity </h1>
-                
-                {%- include coding_activity.html -%}
-    
-            </div>
-            {% endif %}
     
         </div>
         </div>

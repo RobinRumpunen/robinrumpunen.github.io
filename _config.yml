@@ -24,23 +24,24 @@ urls:
 author_logo: profile.png
 author: Robin Rumpunen
 author_bio: Hi, my name is Robin Rumpunen, swedish artist and programmer from Halland. </p><p>Uncovering the mysteries of days past is my motto.</p>
-author_email: "RobinRumpunen@gmail.com"
+author_email: ""
 author_location: Sweden, Malmö
 author_website_url: "https://robinrumpunen.github.io"
 
 author_work_experiences: 
-            - company_name: Massive Entertainment
+            - company_name: " Prop Artist &emsp; &emsp; &ensp; 2019/04/01 - present <br>
+              Junior Prop Artist  2017/07/03 - 2019/03/31 "
               company_logo: MassiveEnt.png
               company_url: https://massive.se
-              designation: Prop Artist
-              description: Prop Artist on The Division 2.
+              designation: Massive Entertainment
+              description: Prop Artist working on The Division 2.
               visibility: true
             - company_name: Massive Entertainment
               company_logo: MassiveEnt.png
               company_url: https://massive.com
               designation: Junior Prop Artist
               description: Junior Prop Artist on The Division 2.
-              visibility: true
+              visibility: false
 
 author_project_details:
               - project_thumbnail: EchoEngine.png
@@ -73,6 +74,7 @@ medium_username:
 dribbble_username: 
 flickr_username:  
 artstation_username: robinr
+formspree_email: robinrumpunenContact@gmail.com
 
 # google analytics
 google_analytics: UA-147350173-1 
