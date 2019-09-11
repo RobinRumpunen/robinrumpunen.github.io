@@ -57,6 +57,7 @@ footer {
 
 .card {
     margin-top: 20px !important;
+    margin-bottom: 20px !important;
     margin-right: 5px !important;
     margin-left: 5px !important;
     padding: 12px !important;
@@ -181,6 +182,20 @@ code {
 /* Full HD desktop and laptop displays. To allow for already made platform adaptability. */
 /* Less than 1920x1080 because the site does not take up the entire screen, because of browser tabs and windows toolbar. */
 
+.btn_dwnload{
+    color: #ffffcc !important;
+    background-color: #7c84d8 !important;
+    padding-left: 15px !important;
+    padding-right: 15px !important;
+    padding-top: 15px !important;
+    padding-bottom: 15px !important;
+    max-width: 100px !important;
+
+    border: 2px solid;
+    border-radius: 11px;
+
+}
+
 @media (min-width: 1800px) and (min-height: 800px) {
     .col-lg-12{
         max-width: 1800px !important;
@@ -195,6 +210,11 @@ code {
     }
     #navigation{
         padding-left: 25px !important;
+    }
+}
+@media (max-width: 767px){
+    #navigation{
+        margin-top: 0px !important;
     }
 }
 @media (min-width: 768px){
