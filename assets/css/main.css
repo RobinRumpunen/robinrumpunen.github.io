@@ -183,17 +183,32 @@ code {
 /* Less than 1920x1080 because the site does not take up the entire screen, because of browser tabs and windows toolbar. */
 
 .btn_dwnload{
-    color: #ffffcc !important;
+    color: #fff !important;
     background-color: #7c84d8 !important;
-    padding-left: 15px !important;
+    
+    padding-left: 18px !important;
     padding-right: 15px !important;
-    padding-top: 15px !important;
-    padding-bottom: 15px !important;
-    max-width: 100px !important;
+    padding-top: 13px !important;
+    padding-bottom: 13px !important;
+    max-width: 135px !important;
+    margin-bottom: 6px !important;
 
-    border: 2px solid;
-    border-radius: 11px;
+    border: 2px solid !important;
+    border-color: #787fc9 !important;
+    border-radius: 11px !important;
+}
 
+.btn_dwnload::after{
+    content: url(../img/dwnloadIcon.png) !important;
+    padding-left: 5px !important;
+    padding-right: 5px !important;
+    position: absolute !important;
+}
+
+a.btn_dwnload::active{
+    border-color: #8c94e7 !important;
+    color: #fff !important;
+    background-color: #fff !important;
 }
 
 @media (min-width: 1800px) and (min-height: 800px) {

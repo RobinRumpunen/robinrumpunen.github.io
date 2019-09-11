@@ -11,10 +11,10 @@ Down below you will see the current achievements of the project.
 
 Try it out for yourself!
 Download binaries here:
-<p class="btn_dwnload"><a hreg="/download/XXX">[Win64]</a></p>
-<p class="btn_dwnload"><a hreg="/download/XXX">[Win32]</a></p>
-<p class="btn_dwnload"><a hreg="/download/XXX">[OSX]</a></p>
-<p class="btn_dwnload"><a hreg="/download/XXX">[Linux]</a></p>
+<p class="btn_dwnload"><a href="/download/XXX">[Win64]</a></p>
+<p class="btn_dwnload"><a href="/download/XXX">[Win32]</a></p>
+<p class="btn_dwnload"><a href="/download/XXX">[OSX]</a></p>
+<p class="btn_dwnload"><a href="/download/XXX">[Linux]</a></p>
 
 ### Echo engine is a personal engine created from scratch* by me.
 It was started as a way for me to better understand what is truly going on
