@@ -1,6 +1,7 @@
 body {
-    background-color: #D6DDE1 !important;
-    font-family: 'Quicksand', sans-serif !important;
+    background-color: #f3f2f1 !important;
+    /* font-family: 'Quicksand', sans-serif !important; */
+    font-family: Segoe UI;
 }
 
 html {
@@ -8,8 +9,8 @@ html {
 }
 
 header {
-    background-color: #F5F5F5;
-    box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.2);
+    background-color: #FFF;
+    /* box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.2); */
     height: auto;
     width: 100%;
     padding: 11px;
@@ -20,11 +21,16 @@ footer {
     height: 70px;
     text-align: center;
     padding: 20px;
-    background-color: #F5F5F5;
+    background-color: #ececec;
     color: #000;
-    box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.2);
+    /* box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.2); */
     /* position: absolute; */
     /* bottom: 0px; */
+}
+
+footer a{
+    color: #616166;
+    font-weight: 600;
 }
 
 .container-fluid {
@@ -60,7 +66,7 @@ footer {
     margin-bottom: 20px !important;
     margin-right: 5px !important;
     margin-left: 5px !important;
-    padding: 12px !important;
+    padding: 50px 100px 50px 100px !important;
 }
 
 .blog-post {
@@ -184,7 +190,7 @@ code {
 
 .btn_dwnload{
     color:#fff;
-    background-color: #7c84d8;
+    background-color: #529c9e;
 
     float: right;
     display: inline;
@@ -207,13 +213,13 @@ code {
 
     transition: all .15s linear 0s;
 
-    box-shadow: -4px 4px 0 #41435f;
+    box-shadow: -4px 4px 0 #394d61;
 }
 
 .btn_dwnload:hover{
     color:#fff;
     text-decoration:none;
-    box-shadow: -2px 2px 0 #41435f;
+    box-shadow: -2px 2px 0 #394d61;
     top: 2px;
     left: -2px;
 }
