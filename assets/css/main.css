@@ -245,6 +245,10 @@ code {
     padding-left: 0px !important;
     padding-right: 6px !important;
 }
+.col-md-2{
+    padding-left: 8px !important;
+    padding-right: 8px !important;
+}
 .col-md-6{
     padding-left: 8px !important;
     padding-right:8px !important;

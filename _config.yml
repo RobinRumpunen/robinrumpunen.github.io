@@ -12,12 +12,14 @@ baseurl: "" # the subpath of your site, e.g. /blog
 urls:
     # - text: Blog
       # url: /blog
-    - text: About Me
+    - text: About
       url: /about
     - text: Engine
       url: /engine
-    - text: Contact Me
+    - text: Contact
       url : /contact
+    - text: Download
+      url : /download
 
 # Edit these details 
 
