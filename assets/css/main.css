@@ -1,7 +1,7 @@
 html, html[data-theme="light"] {
    --light-text-color: hsl(0, 0%, 35%);
    --main-background-color: hsl(48, 9%, 92%);
-   --main-focusground-color: hsl(0, 5%, 97%);
+   --main-focusground-color: hsl(0, 0%, 100%);
    --foot-background-color: hsl(60, 6%, 90%);
    --main-text-color: hsl(0, 0%, 0%);
    --link-text-color: hsl(240, 3%, 39%);
@@ -95,14 +95,6 @@ footer a{
 
 .center {
     text-align: center;
-}
-
-.card {
-    margin-top: 20px !important;
-    margin-bottom: 20px !important;
-    margin-right: 5px !important;
-    margin-left: 5px !important;
-    padding: 20px !important;
 }
 
 .blog-post {
@@ -205,13 +197,10 @@ code {
 /* Full HD desktop and laptop displays. To allow for already made platform adaptability. */
 /* Less than 1920x1080 because the site does not take up the entire screen, because of browser tabs and windows toolbar. */
 
-.btn_dwnload {
+.robinBtn{
     color:#fff !important;
     background-color: #529c9e;
 
-    float: right;
-    display: inline;
-    width:86px;
     padding-left: 10px;
     padding-top: 8px;
     padding-bottom: 8px;
@@ -230,27 +219,28 @@ code {
 
     box-shadow: -4px 4px 0 #394d61;
 }
-/* .btn_dwnload a{
-    text-decoration: none;
-    color: #fff;
-    font-weight:300;
-} */
-.btn_dwnload:hover{
+.robinBtnDwnload{
+    width:86px;
+    float: right;
+    display: inline;
+
+}
+.robinBtn:hover{
     color:#fff !important;
     text-decoration:none;
     box-shadow: -2px 2px 0 #394d61;
     top: 2px;
     left: -2px;
 }
-
-.btn_dwnload:active{
+.robinBtn:active{
     box-shadow: none;
     top: 4px;
     left: -4px;
 }
-
-
-.btn_dwnload:after{
+.robinBtn:focus{
+    outline: none !important;
+}
+.robinBtnDwnload:after{
     content: url(../img/dwnloadIcon.png);
     padding-left: 5px;
     padding-top: 3px;
@@ -275,12 +265,24 @@ code {
     padding-right:8px !important;
 }
 .card{
+    margin-top: 20px !important;
+    margin-bottom: 20px !important;
+    margin-right: 5px !important;
+    margin-left: 5px !important;
+    padding: 20px !important;
+
     background-color: var(--main-focusground-color) !important;
+
+    border: none !important;
+    border-radius: .15rem !important;
 }
 .col-lg-11 .card{
     padding: 12px !important;
 }
-
+/* .modeSwitcher{
+    position: relative;
+    right: 0;
+} */
 @media (min-width: 992px) {
     .col-lg-11 .card{
         padding: 50px 100px 50px 100px !important;

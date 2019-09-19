@@ -18,8 +18,6 @@ urls:
       url: /engine
     - text: Contact
       url : /contact
-    - text: Download
-      url : /download
 
 # Edit these details 
 
