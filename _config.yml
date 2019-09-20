@@ -16,8 +16,8 @@ urls:
       url: /about
     - text: Engine
       url: /engine
-    - text: Contact
-      url : /contact
+    - text: Art
+      url : https://robinr.artstation.com/projects
 
 # Edit these details 
 
@@ -68,7 +68,7 @@ twitter_username: robin_rrrr
 github_username:  robinrumpunen
 facebook_username: 
 linkedin_username: robin-rumpunen-b7bb55140/
-behance_username: 
+behance_username: helloRobinRumpunen@gmail.com
 instagram_username: 
 medium_username: 
 dribbble_username: 

@@ -6,7 +6,13 @@ html, html[data-theme="light"] {
    --main-text-color: hsl(0, 0%, 0%);
    --link-text-color: hsl(240, 3%, 39%);
    --linkH-text-color: hsl(240, 22%, 49%);
-
+   --btn-main-color: hsl(240, 4%, 41%);
+   --btn-scnd-color: hsl(240, 9%, 25%);
+   --styling-filter: 0%;
+   --artstation-logo: url("../img/artstationL.svg");
+   --artstation-logo-hover: url("../img/artstationH.svg");
+   --dwnload-logo: url("../img/dwnloadIconL.svg");
+   --email-logo: url("../img/emailIconL.svg");
 }
   
 html[data-theme="dark"] {
@@ -17,17 +23,28 @@ html[data-theme="dark"] {
    --main-text-color: hsl(0, 10%, 80%);
    --link-text-color: hsl(240, 4%, 95%);
    --linkH-text-color: hsl(240, 42%, 78%);
+   --btn-main-color: hsl(240, 14%, 85%);
+   --btn-scnd-color: hsl(240, 4%, 55%);
+   --styling-filter: 100%;
+   --artstation-logo: url("../img/artstationD.svg");
+   --artstation-logo-hover: url("../img/artstationH.svg");
+   --dwnload-logo: url("../img/dwnloadIconD.svg");
+   --email-logo: url("../img/emailIconD.svg");
 }
 
-@media (prefers-color-scheme: dark) {
+@media (prefers-color-scheme: dark){
     html {
       content: "dark";
     }
 }
+
 body {
     background-color: var(--main-background-color) !important;
     color: var(--main-text-color) !important;
     font-family: Segoe UI;
+    /* transition: all .3s linear 0s; */
+    /* transition: background-color 2.3s linear 0s; */
+
 }
 html {
     scroll-behavior: smooth;
@@ -66,6 +83,7 @@ footer {
 
 footer a{
     /* color: var(--link-text-color); */
+    text-decoration:none !important;
     font-weight: 600;
 }
 
@@ -198,10 +216,10 @@ code {
 /* Less than 1920x1080 because the site does not take up the entire screen, because of browser tabs and windows toolbar. */
 
 .robinBtn{
-    color:#fff !important;
-    background-color: #529c9e;
+    color:var(--main-background-color) !important;
+    background-color: var(--btn-main-color);
 
-    padding-left: 10px;
+    padding-left: 6px;
     padding-top: 8px;
     padding-bottom: 8px;
     margin-bottom: 6px;
@@ -217,18 +235,12 @@ code {
 
     transition: all .15s linear 0s;
 
-    box-shadow: -4px 4px 0 #394d61;
-}
-.robinBtnDwnload{
-    width:86px;
-    float: right;
-    display: inline;
-
+    box-shadow: -4px 4px 0 var(--btn-scnd-color);
 }
 .robinBtn:hover{
-    color:#fff !important;
+    color:var(--main-background-color)!important;
     text-decoration:none;
-    box-shadow: -2px 2px 0 #394d61;
+    box-shadow: -2px 2px 0 var(--btn-scnd-color);
     top: 2px;
     left: -2px;
 }
@@ -240,13 +252,19 @@ code {
 .robinBtn:focus{
     outline: none !important;
 }
-.robinBtnDwnload:after{
-    content: url(../img/dwnloadIcon.png);
+.robinBtnDwnload{
+    width:80px;
+    padding-left: 15px;
+    float: right;
+    display: inline;
+}
+/* .robinBtnDwnload:after{
+    content: var(--dwnload-logo);
     padding-left: 5px;
     padding-top: 3px;
     position: absolute;
     right:4px;
-}
+} */
 
 .col-lg-8{
     padding-left: 0px !important;
@@ -279,16 +297,11 @@ code {
 .col-lg-11 .card{
     padding: 12px !important;
 }
-/* .modeSwitcher{
-    position: relative;
-    right: 0;
-} */
 @media (min-width: 992px) {
     .col-lg-11 .card{
         padding: 50px 100px 50px 100px !important;
     }
 }
-
 @media (min-width: 1800px) and (min-height: 800px) {
     .col-lg-12{
         max-width: 1800px !important;
@@ -296,7 +309,6 @@ code {
         margin-right: auto !important;
     }
 }
-
 @media (min-width: 1024px){
     .col-md-4{
         padding-left: 25px !important;
@@ -316,19 +328,16 @@ code {
         min-width: 60% !important;
     }
 }
-
 .col-lg-11{
     padding-right: 0px !important;
     padding-left: 0px !important;
 }
-
 @media (max-width:1199px){
     .col-lg-11{
         flex: 0 0 100% !important;
         max-width: 100% !important;
     }
 }
-
 @media (min-width: 1200px){
     .col-lg-11{
         flex: 0 0 1200px !important;
@@ -337,7 +346,6 @@ code {
         margin-right: auto !important;
     }
 }
-
 @media (min-width: 1801px){
     .col-lg-11{
         left: -300px;
@@ -345,9 +353,32 @@ code {
         margin-right: auto !important;
     }
 }
-
+.fa-telegram-plane{
+    width: 14px;
+    height: 14px;
+    position: relative;
+    top:1px;
+    content: var(--artstation-logo) !important;
+}
 .fa-telegram-plane:before{
-    content: url(../img/artstationLogo.png) !important;
+    content:none !important;
+}
+.fa-telegram-plane:hover{
+    content: var(--artstation-logo-hover) !important;
+}
+.fa-behance
+{
+    width: 14px;
+    height: 14px;
+    position: relative;
+    top:1px;
+    content: var(--email-logo) !important;
+}
+.fa-behance:before{
+    content:none !important;
+}
+.fa-behance:hover{
+    content: var(--email-logo-hover) !important;
 }
 
 .header__container {
