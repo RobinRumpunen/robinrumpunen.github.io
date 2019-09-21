@@ -4,6 +4,7 @@ html, html[data-theme="light"] {
    --main-focusground-color: hsl(0, 0%, 100%);
    --foot-background-color: hsl(0, 0%, 90%);
    --main-text-color: hsl(0, 0%, 0%);
+   --title-text-color: hsl(0, 0%, 0%);
    --link-text-color: hsl(240, 3%, 39%);
    --linkH-text-color: hsl(240, 22%, 49%);
    --btn-main-color: hsl(240, 4%, 41%);
@@ -20,12 +21,12 @@ html[data-theme="dark"] {
    --main-background-color: hsl(0, 0%, 6%);
    --main-focusground-color: hsl(0, 0%, 13%);
    --foot-background-color: hsl(0, 0%, 10%);
-   --main-text-color: hsl(26, 24%, 69%);
+   --main-text-color: hsl(26, 25%, 82%);
    --title-text-color: hsl(45, 99%, 43%);
    --link-text-color: hsl(25, 36%, 77%);
    --linkH-text-color: hsl(45, 99%, 43%);
-   --btn-main-color: hsl(25, 24%, 69%);
-   --btn-scnd-color: hsl(25, 17%, 48%);
+   --btn-main-color: hsl(26, 25%, 82%);
+   --btn-scnd-color: hsl(26, 13%, 58%);
    --styling-filter: 100%;
    --artstation-logo: url("../img/artstationD.svg");
    --artstation-logo-hover: url("../img/artstationH.svg");
@@ -56,6 +57,9 @@ header {
     height: auto;
     width: 100%;
     padding: 11px;
+}
+h1, .h1, h2, .h2, h3, .h3{
+    color: var(--title-text-color) !important;
 }
 a{
     text-decoration: none;
@@ -217,14 +221,14 @@ code {
 /* Less than 1920x1080 because the site does not take up the entire screen, because of browser tabs and windows toolbar. */
 
 .robinBtn{
-    color:var(--main-background-color) !important;
+    color: var(--main-background-color) !important;
     background-color: var(--btn-main-color);
 
     padding-left: 6px;
     padding-top: 8px;
     padding-bottom: 8px;
     margin-bottom: 6px;
-    margin-right: 6px;
+    margin-right: 8px;
     position:relative;
     display: inline-block;
     top: 0px;
@@ -239,13 +243,14 @@ code {
     box-shadow: -4px 4px 0 var(--btn-scnd-color), -6px 5px var(--btn-main-color);
 }
 .robinBtn:hover{
-    color:var(--main-background-color)!important;
+    color: var(--title-text-color)!important;
     text-decoration:none;
     box-shadow: -2px 2px 0 var(--btn-scnd-color), -4px 3px var(--btn-main-color);
     top: 2px;
     left: -2px;
 }
 .robinBtn:active{
+    /* box-shadow: -2px 2px 0 var(--btn-main-color); */
     box-shadow: none;
     top: 4px;
     left: -4px;
