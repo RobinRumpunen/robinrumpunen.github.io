@@ -51,6 +51,9 @@ Fully written image importing library supporting KTX v1.1 and TGA file formats.
 The KTX file format allows for storing mips, meta data (e.g. internal formats),
 cubemaps, texture arrays, and beyond 8 bit/channel data. Also included are
 image manipulation tools such as mirroring and image orientation.
+Supporting file formats:
+  * TGA
+  * KTX v1.1
 
 ### Math library
 The engine uses a custom math library written from scratch.
