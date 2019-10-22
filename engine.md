@@ -33,7 +33,7 @@ Fully written renderer backend with Vulkan.
 No extensions part from Khrono’s “swapchains” has been enabled.
 Allowing any platform supporting Vulkan to be compatible.
 
-<img class="img-fluid" src="/assets/img/engine/FullRender.png" alt="Screenshot of the renderer">
+<img class="img-fluid" src="/assets/img/engine/FullRender.PNG" alt="Screenshot of the renderer">
 
 ### Dynamic soft shadows.
 Variable soft shadow mapping has been implemented based on three passes*.
@@ -49,7 +49,7 @@ PBS based on Epic Games’ approach, curtousy to LearnOpenGL.com for the great i
 Utilizing “Image Based Lighting” provided via cubemap textures used to generate
 radiance and irradiance textures.
 
-<img class="img-fluid" src="/assets/img/engine/PBS_Model.png" alt="Physically based shading model">
+<img class="img-fluid" src="/assets/img/engine/PBS_Model.PNG" alt="Physically based shading model">
 
 ### Image importing library.
 Fully written image importing library supporting KTX v1.1 and TGA file formats.
