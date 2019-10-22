@@ -2,9 +2,9 @@
 
 # Edit your preferences below 
 title: Robin Rumpunen
-subtitle: Prop Artist and Game Engine Enthusiast
+subtitle: Prop Artist and Programmer.
 description: >- # this means to ignore newlines until "baseurl:"
-  John Doe uses devlopr-jekyll - a Jekyll Theme Built For Developers
+  Robin Rumpunen sharing what he's working on.
 
 url: "https://robinrumpunen.github.io" # the base hostname & protocol for your site, e.g. https://example.github.io
 baseurl: "" # the subpath of your site, e.g. /blog
@@ -23,14 +23,14 @@ urls:
 
 author_logo: profile.png
 author: Robin Rumpunen
-author_bio: Hi, my name is Robin Rumpunen, swedish artist and programmer from Halland. </p><p>Uncovering the mysteries of days past is my motto.</p>
+author_bio: Hi, my name is Robin Rumpunen, artist and programmer from Halland.
 author_email: ""
 author_location: Sweden, Malmö
 author_website_url: "https://robinrumpunen.github.io"
 
 author_work_experiences: 
             - company_name: " Prop Artist &emsp; &emsp; &ensp; 2019/04/01 - present <br>
-              Junior Prop Artist  2017/07/03 - 2019/03/31 "
+              Junior Prop Artist   2017/07/03 - 2019/03/31 "
               company_logo: MassiveEnt.png
               company_url: https://massive.se
               designation: Massive Entertainment
@@ -46,8 +46,8 @@ author_work_experiences:
 author_project_details:
               - project_thumbnail: EchoEngine.png
                 project_title: Echo Engine
-                project_description: A personal Game Engine.
-                project_url: https://robinrumpunen.github.io/engine
+                project_description: Game Engine created from scratch.
+                project_url: https://robinrumpunen.github.io/engine#/
                 visibility: true
               - project_thumbnail: programmingebooks.png
                 project_title: Programming Ebooks
