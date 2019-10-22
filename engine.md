@@ -8,6 +8,9 @@ permalink: /engine
 # Echo Engine
 This is a brief overview of my ongoing personal engine, dubbed “Echo Engine”.
 Down below you will see the current achievements of the project.
+Try it out for yourself! Download binaries by pressing the button:
+
+
 
 ### An engine created from scratch by me.
 It was started as a way for me to better understand what is truly going on
