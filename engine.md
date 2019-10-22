@@ -8,14 +8,18 @@ permalink: /engine
 # Echo Engine
 This is a brief overview of my ongoing personal engine, dubbed “Echo Engine”.
 Down below you will see the current achievements of the project.
-Try it out for yourself! Download binaries by pressing the button:
+Try it out for yourself! Download binaries by pressing the button, no installation required.
+<br>
+<br>
+<i> * I am aware </i> that there are some shadow related issues on certain AMD systems. I've tracked it down to be the cause of a shader, but at this moment i'm not sure how to fix it. Further investigation is needed.
+<a class="robinBtn robinBtnDwnload" href="/assets/download/engine/EchoEngine_v0_33.zip" download> Win32 </a>
 
 
 
 ### An engine created from scratch by me.
 It was started as a way for me to better understand what is truly going on
-under the hood of a modern game engine.
-The project has been developed in my spare time and currently features 6 core systems.
+under the hood of a modern game engine. The languages used have been C++, GLSL (translated to SPIR-V), and a very small amount of batch script for task automation.
+The project has been developed in my spare time and currently features 6 core systems and over 9000+ SLOC.
   * Vulkan backend renderer 
   * Image importing library
   * Math library 
@@ -39,7 +43,7 @@ Allowing any platform supporting Vulkan to be compatible.
 <img class="img-fluid" src="/assets/img/engine/FullRender.PNG" alt="Screenshot of the renderer">
 
 ### Dynamic soft shadows.
-Variable soft shadow mapping has been implemented based on three passes*.
+Variable soft shadow mapping has been implemented based on three render passes using 2 pipelines*.
 1. Light-space pass storing depth (D).
 2. X-direction filter storing a two component texture (D-filtered, D2-filtered).
 3. Y-direction filtering based on the previous texture.
@@ -49,7 +53,7 @@ Variable soft shadow mapping has been implemented based on three passes*.
 
 ### Physically based shading model.
 PBS based on Epic Games’ approach, curtousy to LearnOpenGL.com for the great introduction.
-Utilizing “Image Based Lighting” provided via cubemap textures used to generate
+Utilizing “Image Based Lighting” provided via preprocessed cubemap textures used to generate
 radiance and irradiance textures.
 
 <img class="img-fluid" src="/assets/img/engine/PBS_Model.PNG" alt="Physically based shading model">
@@ -105,9 +109,13 @@ language: C++
 <img class="img-fluid" src="/assets/img/engine/EngineInput.gif" alt="Gif of input resistration inside the engine.">
 
 ### Model loading.
-To import model data I'm using a 3rd party library called Assimp.
+Model importing is provided by the 3rd party library Assimp.
 <a href="https://github.com/assimp/assimp">https://github.com/assimp/assimp</a>
 
 ### Contribution?
 As this is an educational project developed during my spare time, contribution wont be enabled.
-If there is interest in seeing source code, I can look into publishing it.
+If there is interest in seeing source code, I can look into publishing it. 😀
+
+Thanks for reading!
+
+// Robin Rumpunen
