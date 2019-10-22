@@ -23,14 +23,14 @@ urls:
 
 author_logo: profile.png
 author: Robin Rumpunen
-author_bio: Hi, my name is Robin Rumpunen, artist and programmer from Halland.
+author_bio: Hi! My name is Robin Rumpunen, artist and programmer from Halland. Here you will find a record of things im working on in my spare time.
 author_email: ""
 author_location: Sweden, Malmö
 author_website_url: "https://robinrumpunen.github.io"
 
 author_work_experiences: 
             - company_name: " Prop Artist &emsp; &emsp; &ensp; 2019/04/01 - present <br>
-              Junior Prop Artist   2017/07/03 - 2019/03/31 "
+              Junior Prop Artist     2017/07/03 - 2019/03/31 "
               company_logo: MassiveEnt.png
               company_url: https://massive.se
               designation: Massive Entertainment
